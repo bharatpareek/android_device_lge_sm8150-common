@@ -88,4 +88,64 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>sigmahal</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.dualscreen</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDualScreen</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.accessory.uevent</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAccessoryUevent</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.accessory</name>
+        <version>1.1</version>
+        <interface>
+            <name>IAccessory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.coverdisplay</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICoverDisplay</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.lpwg</name>
+        <version>1.4</version>
+        <interface>
+            <name>ILpwg</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.charger</name>
+        <version>1.1</version>
+        <interface>
+            <name>ICharger</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.battery</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
 </compatibility-matrix>
