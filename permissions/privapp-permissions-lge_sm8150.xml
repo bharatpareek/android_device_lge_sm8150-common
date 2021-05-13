@@ -16,7 +16,7 @@
   -->
 
 <permissions>
-    <privapp-permissions package="org.arrowos.settings.device">
+    <privapp-permissions package="org.dotos.settings.device">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 </permissions>
